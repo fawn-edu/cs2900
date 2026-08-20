@@ -1,0 +1,4 @@
+CompileFlags:
+	Add: [ --language=c, -std=c23, -Wall, -Wextra, -pedantic ]
+Diagnostics:
+	Suppress: [ empty-translation-unit, unknown-attributes ]
